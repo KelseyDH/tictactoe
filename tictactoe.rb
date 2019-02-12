@@ -70,6 +70,7 @@ class TicTacToe
       end
     end
 
+    # Example of a pure function
     def validate_move(input)
       if [1,2,3,4,5,6,7,8,9].include?(input) && !player1.include?(input) && !player2.include?(input) 
         true
